@@ -1,0 +1,115 @@
+insertarEnCP 5 5.0
+insertarEnCP 5 5.0
+insertarEnCP 5 5.0
+insertarEnCP 5 5.0
+insertarEnCP 5 5.0
+insertarEnCP 5 5.0
+insertarEnCP 5 5.0
+insertarEnCP 5 5.0
+prioritario
+estaEnCP 5
+prioridad 5
+eliminarPrioritario
+estaVaciaCP
+insertarEnCP 5 1.0
+insertarEnCP 5 2.0
+insertarEnCP 5 3.0
+insertarEnCP 5 4.0
+insertarEnCP 5 5.0
+insertarEnCP 5 6.0
+insertarEnCP 5 7.0
+insertarEnCP 5 8.0
+insertarEnCP 4 8.0
+prioritario
+prioridad 5
+prioridad 4
+invertirPrioridad
+prioritario
+insertarEnCP 6 8.0
+prioritario
+insertarEnCP 6 9.0
+eliminarPrioritario
+prioritario
+prioridad 5
+eliminarPrioritario
+prioritario
+prioridad 4
+insertarEnCP 5 8.0
+insertarEnCP 6 9.0
+prioritario
+eliminarPrioritario
+prioritario
+eliminarPrioritario
+estaVaciaCP
+eliminarPrioritario
+estaVaciaCP
+invertirPrioridad
+insertarEnCP 1 1.0
+insertarEnCP 2 2.0
+insertarEnCP 3 3.0
+insertarEnCP 4 4.0
+insertarEnCP 5 5.0
+insertarEnCP 6 6.0
+insertarEnCP 7 7.0
+insertarEnCP 8 8.0
+prioritario
+invertirPrioridad
+prioritario
+insertarEnCP 4 8.0
+eliminarPrioritario
+prioritario
+insertarEnCP 8 8.0
+prioritario
+invertirPrioridad
+prioritario
+prioridad 8
+prioridad 4
+eliminarPrioritario
+eliminarPrioritario
+eliminarPrioritario
+eliminarPrioritario
+eliminarPrioritario
+eliminarPrioritario
+eliminarPrioritario
+eliminarPrioritario
+estaVaciaCP
+insertarEnCP 8 8.0
+insertarEnCP 7 7.0
+insertarEnCP 6 6.0
+insertarEnCP 5 5.0
+insertarEnCP 4 4.0
+insertarEnCP 3 3.0
+insertarEnCP 2 2.0
+insertarEnCP 1 1.0
+prioritario
+eliminarPrioritario
+prioritario
+insertarEnCP 10 -10000000.0
+prioritario
+prioridad 10
+insertarEnCP 2 -10000001.0
+prioritario
+prioridad 2
+eliminarPrioritario
+estaVaciaCP
+prioritario
+eliminarPrioritario
+estaVaciaCP
+prioritario
+eliminarPrioritario
+estaVaciaCP
+prioritario
+eliminarPrioritario
+estaVaciaCP
+prioritario
+eliminarPrioritario
+estaVaciaCP
+prioritario
+eliminarPrioritario
+estaVaciaCP
+prioritario
+eliminarPrioritario
+estaVaciaCP
+prioritario
+eliminarPrioritario
+Fin

@@ -1,0 +1,615 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Aug 25 14:52:55 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = Lubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 41)
+MODULOS = lista cola pila asignacion asignacion_residencias
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /home/hezekx/.Xauthority
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/hezekx/Desktop/P3 tareas/tarea1
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/105
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# environment
+GTK_OVERLAY_SCROLLING = 0
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from 'Makefile', line 49)
+EJECUTABLE = principal
+# makefile (from 'Makefile', line 39)
+TESTDIR = test
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LXQT_DEFAULT_OPENBOX_CONFIG = /etc/xdg/xdg-Lubuntu/openbox/lxqt-rc.xml
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/share/Lubuntu:/home/hezekx/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = es_UY.UTF-8
+# environment
+VSCODE_CWD = /home/hezekx/Desktop/P3 tareas/tarea1
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/105/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# makefile (from 'Makefile', line 78)
+DIFFS = $(CASOS:%=$(TESTDIR)/%.diff)
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+LXQT_SESSION_CONFIG = session
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/hezekx/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/105
+# environment
+WINDOWID = 0
+# environment
+SNAP_VERSION = e4503b30
+# makefile (from 'Makefile', line 54)
+CCFLAGS = -Wall -Werror -I$(HDIR) -DNDEBUG -g
+# environment
+XDG_MENU_PREFIX = lxqt-
+# makefile (from 'Makefile', line 72)
+CASOS = 01 02 03 04 05 06 07 stress01 stress02
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/105/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+XDG_SESSION_DESKTOP = 
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-nImTOFLjXV15/agent.815
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/hezekx/Desktop/P3 tareas/tarea1
+# environment
+QT_QPA_PLATFORMTHEME = lxqt
+# default
+.LOADED := 
+# environment
+XDG_SEAT = seat0
+# environment
+SSH_AGENT_PID = 881
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = LXQt
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/hezekx
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_CACHE_HOME = /home/hezekx/.cache
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# makefile (from 'Makefile', line 35)
+HDIR = include
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/hezekx/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LOGNAME = hezekx
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = EdxbOWsy2KRZ7v80JU71AAjMXD9992PiuhOsv3miFKk4PKn9mn-9
+# automatic
++F = $(notdir $+)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/hezekx/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# makefile (from 'Makefile', line 76)
+OUTS = $(CASOS:%=$(TESTDIR)/%.out)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XDG_VTNR = 1
+# environment
+LC_TIME = es_UY.UTF-8
+# environment
+SNAP_REAL_HOME = /home/hezekx
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SNAP_USER_DATA = /home/hezekx/snap/code/105
+# environment
+SHLVL = 1
+# makefile (from 'Makefile', line 52)
+CC = g++
+# makefile (from 'Makefile', line 37)
+ODIR = obj
+# environment
+XDG_SESSION_ID = 1
+# environment
+USER = hezekx
+# environment
+SNAP_REVISION = 105
+# environment
+LC_MONETARY = es_UY.UTF-8
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = LXQt
+# makefile (from 'Makefile', line 44)
+HS = $(MODULOS:%=$(HDIR)/%.h)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+SAL_USE_VCLPLUGIN = qt5
+# environment
+LC_TELEPHONE = es_UY.UTF-8
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# makefile (from 'Makefile', line 75)
+INS = $(CASOS:%=$(TESTDIR)/%.in)
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = 
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# makefile (from 'Makefile', line 46)
+OS = $(MODULOS:%=$(ODIR)/%.o)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-e8a15cc9-1.70.2-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'Makefile', line 48)
+PRINCIPAL = principal
+# environment
+GTK_CSD = 0
+# environment
+GDK_BACKEND = x11
+# environment
+QT_PLATFORM_PLUGIN = lxqt
+# environment
+BROWSER = firefox
+# makefile (from 'Makefile', line 36)
+CPPDIR = src
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+COLORFGBG = 15;0
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = EdxbOWsy2KRZ7v80JU71AAjMXD9992PiuhOsv3miFKk4PKn9mn-9
+# environment
+LC_NUMERIC = es_UY.UTF-8
+# automatic
+<F = $(notdir $<)
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 77)
+SALS = $(CASOS:%=$(TESTDIR)/%.sal)
+# environment
+LC_MEASUREMENT = es_UY.UTF-8
+# environment
+XDG_CONFIG_HOME = /home/hezekx/.config
+# environment
+SNAP_NAME = code
+# makefile (from 'Makefile', line 45)
+CPPS = $(MODULOS:%=$(CPPDIR)/%.cpp)
+# environment
+LC_ALL = C
+# environment
+LC_PAPER = es_UY.UTF-8
+# environment
+XDG_DATA_HOME = /home/hezekx/.local/share
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = es_UY.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = es_UY.UTF-8
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 142865
+ 
+# variable set hash-table stats:
+# Load=142/1024=14%, Rehash=0, Collisions=21/198=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# include (device 2049, inode 536224): No files, no impossibilities so far.
+# . (device 2049, inode 534970): 9 files, no impossibilities.
+# test (device 2049, inode 536263): No files, no impossibilities so far.
+# src (device 2049, inode 536249): No files, no impossibilities so far.
+
+# 9 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+obj/%.o: src/%.cpp include/%.h
+#  recipe to execute (from 'Makefile', line 65):
+	$(CC) $(CCFLAGS) -c $< -o $@
+
+test/%.sal: test/%.in
+#  recipe to execute (from 'Makefile', line 86):
+	-timeout 4 valgrind -q --leak-check=full ./$(EJECUTABLE) < $< > $@ 2>&1
+	@if [ $$(stat -L -c %s $@) -ge 10000 ]; then \
+		echo "tamaño excedido" > $@;\
+	fi
+
+%.diff: %.out %.sal
+#  recipe to execute (from 'Makefile', line 101):
+	@diff $^ > $@;                                            \
+	if [ $$? -ne 0 ];                                         \
+	then                                                      \
+		echo ---- ERROR en caso $@ ----;                  \
+	fi
+
+# 3 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+test/06.diff:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test/01.sal: principal
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean_bin:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 126):
+	rm -f $(EJECUTABLE) $(ODIR)/$(PRINCIPAL).o $(OS)
+
+testing: test/01.diff test/02.diff test/03.diff test/04.diff test/05.diff test/06.diff test/07.diff test/stress01.diff test/stress02.diff
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 117):
+	@LST_ERR=$$(find $(TESTDIR) -name *.diff -size +0c -print);             \
+	if [ -n "$${LST_ERR}" ];                                                \
+	then                                                                    \
+		echo -- CASOS CON ERRORES --;                                   \
+		echo "$${LST_ERR}" | sed -e 's/$(TESTDIR)\///g' -e 's/.diff//g' | sort;\
+	fi
+
+test/stress02.sal: test/stress02.in principal
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 96):
+	timeout 6 ./$(EJECUTABLE) < $< > $@
+
+# Not a target:
+test/stress02.diff:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: principal
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+# Not a target:
+test/01.diff:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/cola.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all clean_bin clean_test clean testing
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test/02.sal: principal
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/07.diff:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/02.diff:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+principal: obj/principal.o obj/lista.o obj/cola.o obj/pila.o obj/asignacion.o obj/asignacion_residencias.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  recipe to execute (from 'Makefile', line 69):
+	$(CC) $(CCFLAGS) $^ -o $@
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-22 15:10:08
+#  File has been updated.
+#  Successfully updated.
+
+test/03.sal: principal
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test/07.sal: principal
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean_test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 130):
+	@rm -f $(TESTDIR)/*.sal $(TESTDIR)/*.diff
+
+# Not a target:
+obj/lista.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/03.diff:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/stress01.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test/05.sal: principal
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/stress02.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/asignacion.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/05.diff:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: clean_test clean_bin
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 134):
+	@rm -f *~ $(HDIR)/*~ $(CPPDIR)/*~ $(TESTDIR)/*~ 
+
+test/04.sal: principal
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/principal.o: principal.cpp
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := obj/principal.o
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := principal.cpp
+# automatic
+# | := 
+# automatic
+# < := principal.cpp
+# automatic
+# ^ := principal.cpp
+# automatic
+# ? := principal.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/16=6%
+#  recipe to execute (from 'Makefile', line 59):
+	$(CC) $(CCFLAGS) -c $< -o $@
+
+# Not a target:
+test/04.diff:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+principal.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-22 15:10:08
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+obj/pila.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/asignacion_residencias.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/stress01.diff:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test/06.sal: principal
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test/stress01.sal: test/stress01.in principal
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 93):
+	timeout 6 ./$(EJECUTABLE) < $< > $@
+
+# files hash-table stats:
+# Load=37/1024=4%, Rehash=0, Collisions=7/83=8%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 54 / storage = 613 B / avg = 11 B
+# current buf: size = 8162 B / used = 613 B / count = 54 / avg = 11 B
+
+# strcache performance: lookups = 95 / hit rate = 43%
+# hash-table stats:
+# Load=54/8192=1%, Rehash=0, Collisions=1/95=1%
+# Finished Make data base on Thu Aug 25 14:52:55 2022
+
+ 

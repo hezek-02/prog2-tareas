@@ -1,0 +1,62 @@
+1>La cp está vacia.
+2>Se intenta insertar 4 con prioridad 4.00.
+3>Se intenta insertar 5 con prioridad 5.00.
+4>Se intenta insertar 6 con prioridad 7.00.
+5>Se intenta insertar 7 con prioridad 6.00.
+6>Se intenta insertar 9 con prioridad 90.00.
+7>Se intenta insertar 8 con prioridad 9.00.
+8>Se intenta insertar 10 con prioridad 12.00.
+9>El prioritario es 4
+10>La prioridad de 1 es 0.00.
+11>Se cambió el criterio de prioridad.
+12>El prioritario es 9
+13>La prioridad de 9 es 90.00.
+14>Se intenta eliminar el prioritario.
+15>El prioritario es 10
+16>La prioridad de 10 es 12.00.
+17>Se intenta eliminar el prioritario.
+18>El prioritario es 8
+19>La prioridad de 8 es 9.00.
+20>Se intenta eliminar el prioritario.
+21>Se intenta eliminar el prioritario.
+22>Se intenta eliminar el prioritario.
+23>Se intenta eliminar el prioritario.
+24>Se intenta eliminar el prioritario.
+25>Se intenta eliminar el prioritario.
+26>Se intenta eliminar el prioritario.
+27>Se intenta eliminar el prioritario.
+28>La cp está vacia.
+29>Se cambió el criterio de prioridad.
+30>Se intenta insertar 1 con prioridad -1.00.
+31>Se intenta insertar 2 con prioridad 3.00.
+32>Se intenta insertar 3 con prioridad 2.00.
+33>Se intenta insertar 4 con prioridad 4.00.
+34>Se intenta insertar 5 con prioridad 5.00.
+35>Se intenta insertar 6 con prioridad 7.00.
+36>Se intenta insertar 10 con prioridad 12.00.
+37>Se intenta insertar 9 con prioridad 90.00.
+38>Se intenta insertar 7 con prioridad 6.00.
+39>Se intenta insertar 8 con prioridad 9.00.
+40>El prioritario es 1
+41>La prioridad de 1 es -1.00.
+42>Se cambió el criterio de prioridad.
+43>El prioritario es 9
+44>La prioridad de 9 es 90.00.
+45>Se intenta eliminar el prioritario.
+46>El prioritario es 10
+47>La prioridad de 10 es 12.00.
+48>Se intenta eliminar el prioritario.
+49>El prioritario es 8
+50>La prioridad de 8 es 9.00.
+51>Se intenta eliminar el prioritario.
+52>El prioritario es 6
+53>La prioridad de 6 es 7.00.
+54>Se intenta eliminar el prioritario.
+55>Se intenta eliminar el prioritario.
+56>Se intenta eliminar el prioritario.
+57>Se intenta eliminar el prioritario.
+58>Se intenta eliminar el prioritario.
+59>Se intenta eliminar el prioritario.
+60>Se intenta eliminar el prioritario.
+61>La cp está vacia.
+62>Fin.

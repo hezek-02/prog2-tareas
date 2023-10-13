@@ -1,0 +1,19 @@
+insertarAlInicio 50 50.0
+insertarAlInicio 60 40.0
+insertarAlFinal 60 60.0
+insertarAlFinal 60 70.0
+menoresQueElResto
+insertarAlFinal 50 40.0
+insertarAlFinal 40 40.0
+insertarAlFinal 30 30.0
+menoresQueElResto
+insertarAlFinal 5 5.0
+insertarAlFinal 21 0.0
+insertarAlFinal 22 0.0
+insertarAlFinal 23 0.0
+insertarAlFinal 24 0.0
+insertarAlFinal 25 0.0
+menoresQueElResto
+insertarAlFinal 1 1.0
+menoresQueElResto
+Fin

@@ -1,0 +1,51 @@
+1>Cantidad en pila: 0.
+2>Apilando (3,3.00)
+3>Desapilando.
+4>Cantidad en pila: 0.
+5>Apilando (5,5.00)
+6>Apilando (6,5.00)
+7>Apilando (3,5.00)
+8>Apilando (8,5.00)
+9>Apilando (2,5.00)
+10>Apilando (1,5.00)
+11>Apilando (10,5.00)
+12>Apilando (5,3.00)
+13>Apilando (5,3.00)
+14>(5,3.00)
+15>Desapilando.
+16>(5,3.00)
+17>Cantidad en pila: 8.
+18>Cantidad en cola: 0.
+19>Encolando (3,3.00)
+20>Cantidad en cola: 1.
+21>(3,3.00)
+22>Desencolando.
+23>Cantidad en cola: 0.
+24>Encolando (5,5.00)
+25>Encolando (5,5.00)
+26>Encolando (6,5.00)
+27>Encolando (3,5.00)
+28>Encolando (8,5.00)
+29>Encolando (2,5.00)
+30>Encolando (1,5.00)
+31>Encolando (10,5.00)
+32>Encolando (5,3.00)
+33>(5,5.00)
+34>Desencolando.
+35>(5,5.00)
+36>Cantidad en cola: 8.
+37>Se insertó (40,40.00) al inicio de la cadena.
+38>Se insertó (50,50.00) al inicio de la cadena.
+39>Se insertó (50,60.00) al inicio de la cadena.
+40>Se insertó (11,11.00) al inicio de la cadena.
+41>Se insertó (54,10.00) al final de la cadena.
+42>Se insertó (54,0.00) al final de la cadena.
+43>Se insertó (54,20.00) al final de la cadena.
+44>Se insertó (49,0.00) al final de la cadena.
+45>Se insertó (121,0.00) al final de la cadena.
+46>Se insertó (18,0.00) al final de la cadena.
+47>(54,10.00)(54,0.00)(54,20.00)(18,0.00)(11,11.00)(40,40.00)(49,0.00)(121,0.00)(50,60.00)(50,50.00)
+48>(49,0.00)(50,60.00)(50,50.00)(121,0.00)(11,11.00)(18,0.00)(40,40.00)(54,10.00)(54,0.00)(54,20.00)
+49>(11,11.00)(121,0.00)(49,0.00)(50,60.00)(50,50.00)(40,40.00)(18,0.00)(54,10.00)(54,0.00)(54,20.00)
+50>(54,10.00)(54,0.00)(54,20.00)(18,0.00)(49,0.00)(121,0.00)(50,60.00)(50,50.00)(40,40.00)(11,11.00)
+51>Fin.

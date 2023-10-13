@@ -1,0 +1,24 @@
+estaOrdenada
+insertarAlInicio 50 1.0
+insertarAlInicio 50 0
+insertarAlInicio 51 0
+estaOrdenada
+removerDeCadena 51
+estaOrdenada
+removerDeCadena 50
+estaOrdenada
+insertarAlInicio 40 0
+insertarAlInicio 30 0
+estaOrdenada
+insertarAlInicio 35 0
+estaOrdenada
+mezclaCadenas 0 0
+mezclaCadenas 0 1 (50,0)
+mezclaCadenas 1 (50,0) 0
+mezclaCadenas 1 (40,0) 1 (50,0)
+mezclaCadenas 1 (40,0) 1 (30,0)
+mezclaCadenas 1 (40,3.0) 1 (40,0)
+mezclaCadenas 1 (90,0) 4 (10,0) (20,0) (30,0) (40,0)
+mezclaCadenas 4 (10,0) (20,0) (30,0) (40,0) 1 (90,0)
+mezclaCadenas 3 (70,0) (80,0) (90,0) 4 (10,0) (20,0) (30,0) (40,0)
+Fin

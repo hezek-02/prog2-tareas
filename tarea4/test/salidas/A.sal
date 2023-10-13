@@ -1,0 +1,24 @@
+1>La cadena está ordenada.
+2>Se insertó (50,1.00) al inicio de la cadena.
+3>Se insertó (50,0.00) al inicio de la cadena.
+4>Se insertó (51,0.00) al inicio de la cadena.
+5>La cadena no está ordenada.
+6>Se removió la primera aparición de 51 de la cadena.
+7>La cadena no está ordenada.
+8>Se removió la primera aparición de 50 de la cadena.
+9>La cadena está ordenada.
+10>Se insertó (40,0.00) al inicio de la cadena.
+11>Se insertó (30,0.00) al inicio de la cadena.
+12>La cadena está ordenada.
+13>Se insertó (35,0.00) al inicio de la cadena.
+14>La cadena no está ordenada.
+15>
+16>(50,0.00)
+17>(50,0.00)
+18>(40,0.00)(50,0.00)
+19>(30,0.00)(40,0.00)
+20>(40,3.00)
+21>(10,0.00)(20,0.00)(30,0.00)(40,0.00)(90,0.00)
+22>(10,0.00)(20,0.00)(30,0.00)(40,0.00)(90,0.00)
+23>(10,0.00)(20,0.00)(30,0.00)(40,0.00)(70,0.00)(80,0.00)(90,0.00)
+24>Fin.
